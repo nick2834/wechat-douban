@@ -1,0 +1,61 @@
+
+
+.head {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.head image {
+  width: 128px;
+  height: 180px;
+}
+
+.info {
+  padding-left: 10px;
+}
+
+text {
+  font-size: 15px;
+}
+
+.todo {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
+.todo button{
+  width: 125px;
+}
+.content{
+  padding: 20px 10px;
+  font-size: 15px;
+  text-indent: 2em;
+  margin: 10px;
+  background: #efefef;
+  margin-top: 25px;
+}
+
+.casts{
+  padding-top: 10px;
+}
+
+.avatars {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  background: #F2f2f2;
+}
+
+.avatars image {
+  width: 70px;
+  height: 80px;
+}
+
+.name{
+  align-items: center;
+  font-size: 15px;
+  padding-left: 10px;
+  padding-top: 30px;
+}
